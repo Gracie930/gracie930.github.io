@@ -1,0 +1,155 @@
+body {
+  background: #FFFFFF;
+  text-align: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.mainContainer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: #006400;
+  min-width: 600px;
+}
+
+.titles {
+  background: #32CD32;
+  height: 150px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.title {
+  font-size: 50px;
+  padding-top: 15px;
+  margin-bottom: -15px;
+}
+
+.subtitle {
+  margin-bottom: 15px;
+}
+
+.clear {
+  margin-top: 15px;
+  margin-right: 8px;
+  font-size: 25px;
+  padding: 10px;
+  background:#FF0000;
+  margin-bottom: 20px;
+}
+
+.reset {
+  margin-top: 15px;
+  margin-left: 8px;
+  font-size: 25px;
+  padding: 10px;
+  background:#FF0000;
+  margin-bottom: 20px;
+}
+
+.clear:hover, .reset:hover {
+  cursor: pointer;
+  background: #1F2124;
+  color: #1ec0ff;
+}
+
+button:active, button:focus {
+  outline: none;
+}
+
+.newTask {
+  font-size: 20px;
+  margin-top: 15px;
+  border: 2px solid;
+  border-radius: 30px;
+}
+
+input {
+  padding: 7px;
+  text-align: center;
+  background: #708090;
+  border: none;
+  border-radius: 2px;
+  color: #03E1A4;
+  border: 2px solid;
+  border-radius: 30px;
+}
+
+input:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: #b4b4b4;
+}
+
+button {
+  font-size: 18px;
+  border-radius: 3px;
+  border: none;
+}
+
+.enter {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #6A5ACD;
+  font-size: 25px;
+  padding: 8px;
+}
+
+.enter:hover {
+  cursor: pointer;
+}
+
+.remove {
+  background: #006400;
+}
+
+.remove:hover {
+  cursor: pointer;
+  color: #fc913a;
+  background: #1e1e1e;
+}
+
+.search {
+  font-size: 20px;
+}
+
+table {
+  border-collapse: separate;
+}
+
+.taskTable {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  font-size: 25px;
+}
+
+td {
+  font-size: 20px;
+}
+
+tr, td {
+  border: none;
+}
+
+tr:hover {
+  background: rgba(200, 200, 200, 0.3);
+}
+
+.taskNumber {
+  text-align: right;
+}
+
+.taskItem {
+  text-align: left;
+  padding-left: 25px;
+}
