@@ -389,7 +389,7 @@ h5 {
 	overflow: auto;
 }
 .parallax1 { 
-    background-image: url("../img/4.jpg");
+    background-image: url("../img/background-image.jpg");
     height: auto;
     overflow: auto;
     padding: 80px 0;
@@ -485,7 +485,7 @@ h5 {
 	z-index: 110;
 	width: 100%;
 	text-align:center;
-    background-color: #00cc99 ;
+    background-color: #00aeef ;
 }
 .centered { text-align: center !important; }
 .knob { color: rgba(255,255,255,0.4) !important; }
@@ -577,7 +577,7 @@ h5 {
 #social-left [class^="icon-"]:before, #social-left [class*=" icon-"]:before {font-size: 24px; min-height: 24px; }
 #social-left [class^="icon-"]:hover:before, #social-left [class*=" icon-"]:hover:before {color: rgba(255, 255, 255, 1.0); }
 #social-button {
-    background-color: #00e6ac;
+    background-color: #00aeef;
     border-radius: 0 0 3px 3px;
     float: none;
     left: 50%;
@@ -619,7 +619,7 @@ h5 {
     z-index: 120;
     transition: all 0.3s ease-in-out;
 }
-#menu-button:hover { background-color: #00e6ac; }
+#menu-button:hover { background-color: #00aeef; }
 #menu-button:hover:before { 
     border-top: 7px double #ffffff;
     border-bottom: 2px solid #ffffff;
@@ -930,7 +930,7 @@ Menu Styling
 }
 .menu ul li a { color: #fbfbfb; text-decoration: none; padding-top: 13px; font-weight: 700; letter-spacing: 1px; transition: all 0.2s ease-in-out; font-size: 14px;}
 .menu ul li a:hover { color: #fbfbfb; text-decoration: none; border-top: 5px solid #fbfbfb; border-bottom: 0px solid transparent; }
-.menu ul li a.cta { color: #ffffff; text-decoration: none; padding: 10px 20px; font-weight: 700; background-color: #00e6ac ; transition: all 0.2s ease-in-out; border-bottom: 0px solid transparent; border-radius: 3px;}
+.menu ul li a.cta { color: #ffffff; text-decoration: none; padding: 10px 20px; font-weight: 700; background-color: #00aeef ; transition: all 0.2s ease-in-out; border-bottom: 0px solid transparent; border-radius: 3px;}
 .menu ul li a:hover.cta { color: #00e6ac; padding: 10px 20px; background-color: #ffffff ; text-decoration: none; border-top: 0px solid #fbfbfb; border-bottom: 0px solid transparent; border-radius: 3px;}
 .menu {
     cursor: pointer;
@@ -970,7 +970,7 @@ Menu Styling
 }
 .nav ul li a, .nav ul li a:hover { font-size: 14px; border-bottom: 0px solid transparent; }
 .nav ul li a:hover { color: #ffffff; border-top: 0px solid transparent; }
-.nav ul li:hover { background-color: #00e6ac; }
+.nav ul li:hover { background-color: #00aeef; }
 /*
 ==============================================
 Responsive Syling
